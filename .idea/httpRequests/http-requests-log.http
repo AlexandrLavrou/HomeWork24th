@@ -1,0 +1,180 @@
+POST http://127.0.0.1:5000/perform_query
+Content-Type: application/json
+
+{
+  "file_name": "apache_logs.txt",
+  "cmd1": "filter",
+  "value1": "94.197.120.210",
+  "cmd2": "limit",
+  "value2": "2"
+}
+
+<> 2022-11-01T011735.200.txt
+
+###
+
+POST http://127.0.0.1:5000/perform_query
+Content-Type: application/json
+
+{
+   "file_name": "apache_logs.txt",
+   "cmd1": "regex",
+   "value1": "images/\\w+\\.png",
+   "cmd2": "sort",
+   "value2": "asc"
+}
+
+<> 2022-11-01T011711.200.txt
+
+###
+
+POST http://127.0.0.1:5000/perform_query
+Content-Type: application/json
+
+{
+  "file_name": "apache_logs.txt",
+  "cmd1": "filter",
+  "value1": "83.149.9.216",
+  "cmd2": "map",
+  "value2": "9"
+}
+
+<> 2022-11-01T011636.400.html
+
+###
+
+POST http://127.0.0.1:5000/perform_query
+Content-Type: application/json
+
+{
+  "file_name": "apache_logs.txt",
+  "cmd1": "filter",
+  "value1": "83.149.9.216",
+  "cmd2": "limit",
+  "value2": "9"
+}
+
+<> 2022-11-01T011622.200.txt
+
+###
+
+POST http://127.0.0.1:5000/perform_query
+Content-Type: application/json
+
+{
+   "file_name": "apache_logs.txt",
+   "cmd1": "regex",
+   "value1": "images/\\w+\\.png",
+   "cmd2": "sort",
+   "value2": "asc"
+}
+
+<> 2022-11-01T011611.200.txt
+
+###
+
+POST http://127.0.0.1:5000/perform_query
+Content-Type: application/json
+
+{
+   "file_name": "apache_logs.txt",
+   "cmd1": "regex",
+   "value1": "images/\\w+\\.png",
+   "cmd2": "sort",
+   "value2": "asc"
+}
+
+<> 2022-11-01T011554.200.txt
+
+###
+
+POST http://127.0.0.1:5000/perform_query
+Content-Type: application/json
+
+{
+  "file_name": "apache_logs.txt",
+  "cmd1": "map",
+  "value1": "9",
+  "cmd2": "unique",
+  "value2": " "
+}
+
+<> 2022-11-01T005655.400.html
+
+###
+
+POST http://127.0.0.1:5000/perform_query
+Content-Type: application/json
+
+{
+  "file_name": "apache_logs.txt",
+  "cmd1": "filter",
+  "value1": "images",
+  "cmd2": "limit",
+  "value2": "10"
+}
+
+<> 2022-11-01T005623.200.txt
+
+###
+
+POST http://127.0.0.1:5000/perform_query
+Content-Type: application/json
+
+{
+  "file_name": "apache_logs.txt",
+  "cmd1": "filter",
+  "value1": "83.149.9.216",
+  "cmd2": "map",
+  "value2": "9"
+}
+
+<> 2022-11-01T005433.400.html
+
+###
+
+POST http://127.0.0.1:5000/perform_query
+Content-Type: application/json
+
+{
+  "file_name": "apache_logs.txt",
+  "cmd1": "map",
+  "value1": "9",
+  "cmd2": "unique",
+  "value2": ""
+}
+
+<> 2022-11-01T005415.400.html
+
+###
+
+POST http://127.0.0.1:5000/perform_query
+Content-Type: application/json
+
+{
+  "file_name": "apache_logs.txt",
+  "cmd1": "map",
+  "value1": "9",
+  "cmd2": "unique",
+  "value2": ""
+}
+
+<> 2022-11-01T005347.400.html
+
+###
+
+POST http://127.0.0.1:5000/perform_query
+Content-Type: application/json
+
+{
+  "file_name": "apache_logs.txt",
+  "cmd1": "filter",
+  "value1": "images",
+  "cmd2": "limit",
+  "value2": "5"
+}
+
+<> 2022-11-01T005341.200.txt
+
+###
+
